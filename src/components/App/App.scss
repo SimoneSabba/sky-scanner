@@ -1,0 +1,8 @@
+@import '~bpk-mixins';
+
+.App {
+  &__main {
+    background: $bpk-autosuggest-list-item-active-background-color;
+    padding: $bpk-spacing-sm;
+  }
+}

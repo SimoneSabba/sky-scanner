@@ -1,0 +1,22 @@
+@import '~bpk-mixins';
+
+.FlightResults {
+    display: flex;
+    flex-direction: column;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    background-color: $bpk-color-white;
+    @include bpk-box-shadow-sm();
+    border-radius: 5px;;
+    padding: 10px;
+    margin: 15px 0;
+
+    &__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+} 
